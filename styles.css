@@ -32,7 +32,7 @@ body{
   text-decoration: none;
   color: white;
   font-family: monospace;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
 }
 .navbar_active{
   padding: 1vw 1vw;
@@ -42,7 +42,7 @@ body{
   text-decoration: none;
   color: white;
   font-family: monospace;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
 }
 .navbar a:hover{
   background-color: #a4a6a8;
