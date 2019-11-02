@@ -1,72 +1,16 @@
-body{
+body {
   margin: 0;
   padding: 0;
-  background-color: black;
-  background-color: #bcc6d6;
+  background-image: url("./resources/background.jpg");
 }
-.theme img{
-  width: 100%;
-  height: auto;
-}
-.header{
+.Oasis{
+  background-color: #79a7ba;
+  text-align: center;
+  margin: auto;
+  border-width: medium;
+  border-style: dotted;
   display: block;
   position: relative;
-}
-.page_content img{
   width: 50vw;
-  height: auto;
-}
-.navbar{
-  display: block;
-  position: relative;
-  top: -0.5vw;
-  background-color: #474747;
-  margin: 0;
-  padding: 2vw;
-}
-.navbar_inactive{
-  padding: 1vw 1vw;
-  margin-left: 1vw;
-  margin-right: 1vw;
-  background-color: grey;
-  text-decoration: none;
   color: white;
-  font-family: monospace;
-  font-size: 1.2vw;
-}
-.navbar_active{
-  padding: 1vw 1vw;
-  margin-left: 1vw;
-  margin-right: 1vw;
-  background-color: #a4a6a8;
-  text-decoration: none;
-  color: white;
-  font-family: monospace;
-  font-size: 1.2vw;
-}
-.navbar a:hover{
-  background-color: #a4a6a8;
-}
-.page_content{
-  margin: 1vw 1vw;
-}
-.page_content h1{
-  text-align: center;
-  font-size: 5vw;
-  text-decoration: underline;
-  color: #263642;
-}
-.page_content h3{
-  text-align: center;
-  font-size: 3vw;
-  color: #263642;
-}
-.page_content p{
-  text-align: left;
-  font-size: 2.5vw;
-  color: #263642;
-}
-.page_content iframe{
-  width: 50vw;
-  height: 30vw;
 }
