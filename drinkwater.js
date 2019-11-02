@@ -58,7 +58,7 @@ function updatePage(){
 
 }
 function drink(){
-sound.play(); alert("Hi Hope! It's Jacob, can you please drink some water for me? I love you. Make sure to drink a little more <3"); window.open('./resources/hellothere.html');
+sound.play(); window.open('./resources/hellothere.html');  alert("Hi Hope! It's Jacob, can you please drink some water for me? I love you. Make sure to drink a little more <3"); 
 }
 function main(){
   sound = document.getElementById('sound');
