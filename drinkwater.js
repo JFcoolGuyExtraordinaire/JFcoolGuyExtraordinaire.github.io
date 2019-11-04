@@ -54,11 +54,8 @@ function timeStart(){
   dateTime5 = dateTime2+":"+dateTime3+mno;
 
 }
-function updatePage(){
-
-}
 function drink(){
-sound.play(); window.open('./resources/hellothere.html'); 
+sound.play(); window.open('./resources/hellothere.html');
 }
 function main(){
   sound = document.getElementById('sound');
