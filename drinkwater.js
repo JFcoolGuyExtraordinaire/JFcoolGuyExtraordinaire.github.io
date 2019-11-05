@@ -55,7 +55,7 @@ function timeStart(){
 
 }
 function drink(){
-sound.play(); window.open('./resources/hellothere.html');
+/*sound.play();*/ window.open('./resources/hellothere.html');
 }
 function main(){
   sound = document.getElementById('sound');
