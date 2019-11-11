@@ -1,6 +1,6 @@
 var time=0;
 var count=0;
-var interval=0.5;
+var interval=20;
 var date;
 var dateTime;
 var dateTime2;
