@@ -14,3 +14,27 @@ body {
   width: 50vw;
   color: white;
 }
+.VoiceOn{
+  background-color: #79a7ba;
+  text-align: center;
+  margin: auto;
+  border-width: medium;
+  border-style: dotted;
+  display: block;
+  position: relative;
+  top: 29vw;
+  width: 50vw;
+  color: white;
+}
+.VoiceOff{
+  background-color: #a8324c;
+  text-align: center;
+  margin: auto;
+  border-width: medium;
+  border-style: dotted;
+  display: block;
+  position: relative;
+  top: 29vw;
+  width: 50vw;
+  color: white;
+}

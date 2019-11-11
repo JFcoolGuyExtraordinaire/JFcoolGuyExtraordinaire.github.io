@@ -1,6 +1,6 @@
 var time=0;
 var count=0;
-var interval=20;
+var interval=0.5;
 var date;
 var dateTime;
 var dateTime2;
@@ -11,7 +11,22 @@ var mno;
 var displayMin;
 var displaySec;
 var sound;
+var swi=1;
+function voiceSwitch(){
+  swi = swi * -1;
 
+  if(swi == -1)
+  {
+    document.getElementById('voiBut').className = "VoiceOff";
+    document.getElementById('voi').innerHTML = "Voice Playback is OFF";
+  }
+
+  if(swi == 1)
+  {
+    document.getElementById('voiBut').className = "VoiceOn";
+    document.getElementById('voi').innerHTML = "Voice Playback is ON";
+  }
+}
 function timeStart(){
   time = {minutes: interval, seconds: interval*60};
   count = time.seconds;
@@ -45,17 +60,15 @@ function timeStart(){
 
   dateTime2 = dateTime2.toString();
   dateTime3 = dateTime3.toString();
-
-  if(dateTime3.length < 2)
-  {
-    dateTime3 = "0"+dateTime3;
-  }
-
   dateTime5 = dateTime2+":"+dateTime3+mno;
-
 }
 function drink(){
-/*sound.play();*/ window.open('./resources/hellothere.html');
+
+if(swi == 1){
+sound.play();
+}
+
+window.open('./resources/hellothere.html');
 }
 function main(){
   sound = document.getElementById('sound');
@@ -72,4 +85,6 @@ function main(){
   document.getElementById('a1').innerHTML = displayMin + ":" + displaySec;
 }
 
+voiceSwitch();
+document.getElementById('voiBut').addEventListener("click", voiceSwitch);
 setInterval(main, 1000);
