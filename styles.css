@@ -14,6 +14,11 @@ body {
   width: 50vw;
   color: white;
 }
+.Oasis a{
+  color: white;
+  text-align: center;
+  padding: 50px, 50px;
+}
 .VoiceOn{
   background-color: #79a7ba;
   text-align: center;
