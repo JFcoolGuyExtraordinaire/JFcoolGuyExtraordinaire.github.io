@@ -38,3 +38,16 @@ body {
   width: 50vw;
   color: white;
 }
+.timer{
+  text-align: center;
+}
+.osis2{
+  background-color: #79a7ba;
+  text-align: center;
+  margin: auto;
+  border-width: medium;
+  border-style: dotted;
+  display: block;
+  position: relative;
+  width: 75vw;
+  color: white;
