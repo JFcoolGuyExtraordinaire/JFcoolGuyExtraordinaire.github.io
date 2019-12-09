@@ -55,4 +55,23 @@ body {
   display: block;
   position: relative;
   width: 75vw;
+  height: auto;
   color: white;
+}
+.linked{
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+  background-color: #8cc8d4;
+  text-align: center;
+}
+.linked:hover {
+  background-color: #09c7ed;
+}
+.instructions h4{
+  text-decoration: underline;
+  font-size: 20px;
+}
+.instructions p{
+  font-size: 20px;
+}
