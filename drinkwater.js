@@ -87,4 +87,6 @@ function main(){
 
 voiceSwitch();
 document.getElementById('voiBut').addEventListener("click", voiceSwitch);
+
+timeStart();
 setInterval(main, 1000);
