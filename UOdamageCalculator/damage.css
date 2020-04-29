@@ -1,0 +1,64 @@
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+.header{
+  color:white;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2vw;
+}
+.calculator{
+  margin-left: 5%;
+  font-size: 2vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 90%;
+  height: 40%;
+}
+.baseBonuses{
+  border-style: solid;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vw;
+  border-width: 1vw;
+  border-color: #323740;
+  color: white;
+  background-color: #5c6a82;
+  width: 40%;
+  height: 50%;
+  margin-right: 1vw;
+  border-radius: 1vw;
+  text-align: center;
+}
+.damage_bonus{
+  background-color: #323136;
+  display: block;
+  margin-bottom: 5%;
+  border-radius: 1vw;
+  padding-bottom: 10px;
+}
+.damage_bonus p{
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inputField{
+  color: black;
+  background-color: white;
+}
+.jackButtON{
+  background-color: green;
+  border-radius: 1vw;
+}
+.jackButtOff{
+  background-color: red;
+  border-radius: 1vw;
+}

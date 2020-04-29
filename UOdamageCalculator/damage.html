@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Damage Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./damage.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1>UO Dynamic Melee Damage Calculator</h1>
+  </div>
+  <div class="page_content">
+    <div class="calculator">
+      <div class="baseBonuses">
+        <h4>Bonuses</h4>
+        <div class="damage_bonus">
+          <p>Tactics Skill</p>
+          <p class="inputField" id="tacsInput"></p>
+        </div>
+        <div class="damage_bonus">
+          <p>Anatomy Skill</p>
+          <p class="inputField" id="anatInput"></p>
+        </div>
+        <div class="damage_bonus">
+          <p>Lumberjack Skill</p>
+          <p class="inputField" id="jackInput"></p>
+          <button class="jackButtOff" id="jackb">Lumberjack: OFF</button>
+        </div>
+        <div class="damage_bonus">
+          <p>Strength Stat</p>
+          <p class="inputField" id="strInput"></p>
+        </div>
+        <div class="damage_bonus">
+          <p>Damage Increase</p>
+          <p class="inputField" id="diInput"></p>
+        </div>
+      </div>
+      <div class="baseBonuses">
+        <h4>Weapon Base Damage</h4>
+        <div class="damage_bonus">
+          <p>Weapon Min. </p>
+          <p class="inputField" id="minInput"></p>
+        </div>
+        <div class="damage_bonus">
+          <p>Weapon Max. </p>
+          <p class="inputField" id="maxInput"></p>
+        </div>
+      </div>
+      <div class="baseBonuses">
+        <h4>Calculated Damage</h4>
+        <div class="damage_bonus">
+          <p>Base Min. </p>
+          <p class="inputField" id="minOutput">- - -</p>
+        </div>
+        <div class="damage_bonus">
+          <p>Base Max. </p>
+          <p class="inputField" id="maxOutput">- - -</p>
+        </div>
+      </div>
+    </div>
+<script src="./damage.js"></script>
+</body>
+</html>
